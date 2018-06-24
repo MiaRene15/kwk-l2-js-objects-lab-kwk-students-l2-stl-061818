@@ -11,6 +11,3 @@ function updateDriverWithKeyAndValue(key, value) {
    
 }
 
-function updateDriverWithKeyAndValue( name, 'Sam')
-
-function updateDriverWithKeyAndValue( address, '11 Broadway')
