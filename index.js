@@ -5,10 +5,10 @@ const driver = {
   
 }
 
-function updateDriverWithKeyAndValue(driver, key, value) {
+function updateDriverWithKeyAndValue( key, value) {
    let x = driver.key = value; 
    return x 
    
 }
 
-function updateDriverWithKeyAndValue(driver, name, 'Same')
+function updateDriverWithKeyAndValue( name, 'Same')
