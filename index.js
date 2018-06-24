@@ -6,8 +6,10 @@ const driver = {
 }
 
 function updateDriverWithKeyAndValue(key, value) {
-   let x = driver.key = value; 
-   return x 
+ for (const key in driver) {
+  delete driver[key];
+}
+    driver.name = 'Sam';
    
 }
 
