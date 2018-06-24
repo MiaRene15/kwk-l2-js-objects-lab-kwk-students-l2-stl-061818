@@ -7,7 +7,8 @@ const driver = {
 
 function updateDriverWithKeyAndValue(key, value) {
    Object.defineProperties(driver, {
-     
+     name: 'Sam', 
+     address: '11 Broadway'
    })
 }
 
