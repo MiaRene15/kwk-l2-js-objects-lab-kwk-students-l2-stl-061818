@@ -6,9 +6,6 @@ const driver = {
 }
 
 function updateDriverWithKeyAndValue(key, value) {
- for (const key in driver) {
-  delete driver[key];
-}
    
 }
 
